@@ -38,16 +38,12 @@ By interpreting user instructions through NLP, the vehicle can understand and re
 
 ⚙️ Technology Stack
 Programming Language: Python
-
 Frameworks: TensorFlow (CPU), PyTorch
-
 Computer Vision: OpenCV, YOLO (Ultralytics)
-
 Dashboard: Streamlit
-
 Security: Argon2-CFFI
-
 Notification Service: TryCourier
+
 
 📦 Dependencies
 makefile
@@ -60,24 +56,22 @@ streamlit==1.35.0
 streamlit-login-auth-ui==0.2.0  
 trycourier==4.2.0  
 argon2-cffi==23.1.0  
+
 🚀 How to Run
 Clone the repository
-
 Create a virtual environment and activate it
-
 Install dependencies using pip install -r requirements.txt
 
 Run the application:
-
 bash
 Copy
 Edit
 streamlit run app.py
 Access the dashboard and start giving driving commands!
 
+
 💡 Use Case Scenarios
 Simulate realistic urban driving with voice commands
-
 Academic research on multi-modal AI (vision + language)
 
 Teach and demonstrate core concepts of autonomous systems
